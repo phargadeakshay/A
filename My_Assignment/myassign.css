@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  font-family: Poppins;
+  max-width: 80rem;
+  padding: 0 10px;
+}
+
+.navbar {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  background-color: #437eeb;
+  padding: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 99%;
+  top: 0;
+  position: fixed;
+}
+
+.navLink ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+
+  gap: 16px;
+  justify-content: center;
+}
+.navLink ul li {
+  padding: 12px 24px;
+  background-color: rgba(113, 29, 192, 0.616);
+  border-radius: 9px;
+}
+.logo {
+  background-color: aqua;
+  padding: 12px 24px;
+  border-radius: 9px;
+}
+.que {
+  background-color: rgba(250, 3, 3, 0.664);
+  padding: 12px 24px;
+  border-radius: 9px;
+}
+
+.firstHead {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 10px;
+}
+.textContent {
+  /* background-color: chartreuse; */
+  padding: 10px 10px 10px 50px;
+}
+
+.tohead {
+  margin-top: 30px;
+  font-size: 2.4rem;
+}
+
+section {
+  margin-top: 100px;
+  padding: 10px 10px;
+  margin-bottom: 55px;
+}
+.section2 {
+  margin-bottom: 30px;
+}
+.img1 {
+  width: 100%;
+  justify-content: center;
+  border-radius: 9px;
+}
+.imgDiv {
+  /* background-color: cadetblue; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.adiv {
+  display: flex;
+}
+.btn1 {
+  color: #60a9f2;
+  padding: 12px 14px;
+  background-color: #dbe6fb;
+  border: 2px solid black;
+  text-decoration: none;
+  border-radius: 9px;
+}
+.btnGroup {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0 20px;
+}
+.btn2 {
+  background-color: #525f81;
+  padding: 12px 24px;
+  border-radius: 9px;
+  color: #fff;
+  text-decoration: none;
+}
+.btn3 {
+  padding: 12px 24px;
+  color: #fff;
+  background-color: #437eeb;
+  text-decoration: none;
+  border-radius: 9px;
+}
+/* testimonial css */
+.testimonials {
+  display: grid;
+  padding: 0 50px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 18px;
+}
+.card {
+  box-shadow: 1px 1px 20px 5px rgba(128, 128, 128, 0.397);
+  /* background-color: red; */
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/* heading after textimonials */
+.haeadAfterTextImonial {
+  margin: 50px 0;
+  text-align: center;
+  color: #313e5b;
+}
+
+/* Logos  */
+.logos {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0 50px;
+
+  gap: 20px;
+}
+
+.actulLogo {
+  width: 70px;
+  height: 7px;
+  padding: 10px;
+  background-color: #313e5b;
+}
+.logo1 {
+  /* box-shadow: 1px 1px 20px 5px rgba(128, 128, 128, 0.671); */
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 9px;
+}
+.logosBoxText {
+  margin-top: 20px;
+}
+.fa-color {
+  color: white;
+  background-color: #313e5b;
+  padding: 20px;
+  border-radius: 9px;
+}
+.logoContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
