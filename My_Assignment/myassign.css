@@ -7,7 +7,7 @@ body {
   margin: 0 auto;
   font-family: Poppins;
 
-  padding: 0 1rem;
+  padding: 0 0.3rem;
   max-width: 130rem;
   color: #313e5b;
 }
@@ -20,7 +20,7 @@ body {
   padding: 0.5rem 1rem;
   align-items: center;
   margin-bottom: 1rem;
-  height: 20vh;
+  height: 4rem;
   top: 0;
   position: sticky;
   margin-top: 3rem;
@@ -125,7 +125,7 @@ section {
 }
 .btn2 {
   background-color: #525f81;
-  padding: 1.2rem 2.4rem;
+  padding: 1rem 3.4rem;
   border-radius: 0.9rem;
   color: #fff;
   text-decoration: none;
@@ -212,13 +212,13 @@ section {
 }
 .imgGrid {
   width: 100%;
-  height: 70vh;
+  height: 25rem;
 }
 .gridContent {
   gap: 2rem;
   display: flex;
   flex-direction: column;
-  padding: 7rem 4rem;
+  padding: 1rem 4rem;
   justify-content: center;
   align-items: center;
 }
@@ -260,4 +260,217 @@ p {
 .video {
   width: 70rem;
   height: 100vh;
+}
+
+/* carousel Css */
+.carousel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  margin: 10px 40px;
+}
+.caroText {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 0.1rem; */
+}
+.personName {
+  font-size: 1rem;
+}
+.Pos1 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.Pos2 {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+/* Price Card Container */
+
+.PriceCardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  padding: 3rem;
+}
+.Pcard {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* padding: 0 30px; */
+  /* box-shadow: 0.5rem 0.5rem 20px rgba(128, 128, 128, 0.3); */
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+  /* transition: transform 0.5s ease; */
+  transition: all 0.8s;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.Pcard:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+.pcard_price {
+  display: flex;
+
+  gap: 5px;
+}
+.pcard_h1 {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+.validity {
+  display: flex;
+  flex-direction: column;
+}
+.innerboxcontainer {
+  padding: 2rem;
+}
+.pcard_innerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+}
+.price {
+  font-size: 3.5rem;
+  font-weight: 100;
+}
+.pcard_text {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.4rem;
+  margin-top: 1rem;
+  padding: 0 30px;
+}
+.fa-check {
+  color: #437eeb;
+}
+.btnGroup2 {
+  display: flex;
+  gap: 2rem;
+}
+.popular_card {
+  background-color: #dbe6fb;
+}
+.popular_head {
+  background-color: #437eeb;
+}
+
+/* Form scc */
+.formcontainer {
+  display: flex;
+  padding: 60px 30px;
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+  margin: 0px 5.5rem;
+  font-size: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.formtag {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+
+  justify-content: space-between;
+}
+.formcommondiv {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.buttonform {
+  display: flex;
+  align-items: flex-end;
+}
+input {
+  padding: 0.6rem 1.2rem 0.6rem 6rem;
+  font-size: 1rem;
+  border: none;
+  border: solid 1px #ccc;
+  border-radius: 10px;
+}
+input:focus {
+  outline: none;
+}
+.selectclass {
+  /* padding: 0.6rem 1.2rem 0.6rem 6rem; */
+  padding: 0.6rem 5.5rem 0.6rem 5.5rem;
+  font-size: 1rem;
+  color: #757575;
+  border: none; /* <-- This thing here */
+  border: solid 1px #ccc;
+  border-radius: 10px;
+}
+.haeadideal {
+  margin: 2rem 0;
+  text-align: center;
+  color: #313e5b;
+}
+.formbtn {
+  background-color: #525f81;
+  padding: 0.6rem 7rem 0.6rem 7rem;
+  border-radius: 0.9rem;
+  color: #fff;
+  text-decoration: none;
+}
+.formbtnGroup {
+  display: flex;
+  /* gap: 2rem; */
+}
+
+/* code for future use How to fix fab or font awesome icon in inpute field */
+.iconsAll {
+  display: flex;
+  align-items: center;
+  padding: 0.1rem 1.5rem;
+  background-color: #eef3f9;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0;
+  border: 1px solid black;
+  justify-content: center;
+  text-align: center;
+  border: solid 1px #ccc;
+  border-radius: 10px;
+}
+.iconfinputediv {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Footer css */
+.mainfooterdiv {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6rem;
+  background-color: #ccc;
+  padding: 1.5rem 3rem;
+  color: #757579;
+}
+
+.footerdiv2 ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+
+.footerdiv2 ul li:hover {
+  cursor: pointer;
 }
