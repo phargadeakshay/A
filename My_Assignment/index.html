@@ -17,12 +17,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="myassign.css" />
+    <link rel="stylesheet" href="Queries.css">
     <title>Document</title>
   </head>
   <body>
     
     <div class="navbar">
-      <div class="logo">Logo</div>
+      <div class="logo">Webside Logo</div>
       <div class="navLink">
         <ul>
           <li>Home</li>
@@ -37,10 +38,12 @@
         <p>Have You Any Question</p>
         <p>123456789</p>
       </div>
+      <i class="fa fa-bars mobileBars"></i>
     </div>
   
 
     <section>
+      
       <div class="firstHead">
         <div class="textContent">
           <div class="adiv">
@@ -58,7 +61,7 @@
           </div>
           <div class="btnGroup">
             <a class="btn2" href="#"><span>About Us</span> </a>
-            <a class="btn3" href="#"><span>Contact Us</span> </a>
+            <a class=" btn2 btn3" href="#"><span>Contact Us</span> </a>
           </div>
         </div>
 
@@ -66,7 +69,9 @@
           <img class="img1" src="./food.jpg" alt="" />
         </div>
       </div>
+  
     </section>
+    <section>
     <div class="section2">
       <div class="firstHead">
         <div class="imgDiv">
@@ -87,28 +92,30 @@
           </div>
         </div>
       </div>
-    </div>
+   
+  </section>
     <div class="testimonials">
       <div class="card">
         <p>
-          <h1>500<sup>+</sup></h1>
+        
+          <h1 class="AlCenter">500<sup>+</sup></h1>
           Click on the text in the block and enter the text you want to show.
         </p>
       </div>
       <div class="card">
-        <h1>120<sup>+</sup></h1>
+        <h1 class="AlCenter">120<sup>+</sup></h1>
         <p>
           Click on the text in the block and enter the text you want to show.
         </p>
       </div>
       <div class="card">
-        <h1>100<sup>%</sup></h1>
+        <h1 class="AlCenter">100<sup>%</sup></h1>
         <p>
           Click on the text in the block and enter the text you want to show.
         </p>
       </div>
       <div class="card">
-        <h1>123<sup>+</sup></h1>
+        <h1 class="AlCenter">123<sup>+</sup></h1>
         <p>
           Click on the text in the block and enter the text you want to show.
         </p>
@@ -122,8 +129,8 @@
      <div class="logoContainer">
 
        <i class="fas fa fa-users fa-3x fa-color"></i>
-       <i>--------</i>
-       <i class="far fa-angle-right fa-3x"></i>
+       <i class="dash">-------</i>
+       <i class="far fa-angle-right fa-3x dash"></i>
      </div>
    <h4>Data for all your people</h4>
      <p class="logosBoxText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
@@ -133,8 +140,8 @@
 
        <!-- <img class="actulLogo" src="./peoples.png" alt=""> -->
        <i class="fas fa-server  fa-3x fa-color"></i>
-       <i>--------</i>
-       <i class="far fa-angle-right fa-3x"></i>
+       <i class="dash">-------</i>
+       <i class="far fa-angle-right fa-3x dash"></i>
       </div>
    <h4>Data for all your people</h4>
      <p class="logosBoxText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
@@ -144,8 +151,8 @@
 
        <!-- <img class="actulLogo" src="./peoples.png" alt=""> -->
        <i class="fas fa-chart-area  fa-3x fa-color"></i>
-       <i>--------</i>
-       <i class="far fa-angle-right fa-3x"></i>
+       <i class="dash">-------</i>
+       <i class="far fa-angle-right fa-3x dash"></i>
       </div>
    <h4>Data for all your people</h4>
      <p class="logosBoxText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
@@ -156,8 +163,8 @@
 
        <!-- <img class="actulLogo" src="./peoples.png" alt=""> -->
        <i class="fas fa-cloud-upload-alt  fa-3x fa-color"></i>
-       <i>--------</i>
-       <i class="far fa-angle-right fa-3x"></i>
+       <i class="dash">-------</i>
+       <i class="far fa-angle-right fa-3x dash"></i>
       </div>
      
    <h4>Data for all your people</h4>
@@ -175,7 +182,10 @@
 </div>
 
 <div class="grid-4">
-  <img class="imgGrid" src="./meal-2.jpg" alt="">
+  <div class="imgdiv">
+
+    <img class="imgGrid" src="./meal-2.jpg" alt="">
+  </div>
   <div class="gridContent">
     <h2>Generate Ideas</h2>
     <p>Lorem ipsum dolor, sit amet add consectetur adipisicing elit. dsa Nesciunt, architecto!</p>
@@ -183,7 +193,10 @@
       <a class="btn2 " href="#"><span>Raadmore</span> </a>
     </div>
   </div>
-  <img class="imgGrid" src="./meal-3.jpg" alt="">
+  <div class="imgdiv">
+
+    <img class="imgGrid" src="./meal-3.jpg" alt="">
+  </div>
   <div class="gridContent">
     <h2>Create Design</h2>
     <p>Lorem ipsum dolor, sit amet add consectetur adipisicing elit.dsa Nesciunt, architecto!</p>
@@ -216,7 +229,9 @@
     <p>Analytics</p>
   </div>
 </div>
-<h1 class="videohead"><i class="fas fa-play-circle"></i> Video</h1>
+<div>
+  <h1 class="videohead"><i class="fas fa-play-circle"></i> Video</h1>
+</div>
 <div class="videodiv">
   <iframe class="video"
   src="https://www.youtube.com/embed/iwTnSIdYkaY">
@@ -228,12 +243,19 @@
   <i class="far fa-chevron-left fa-2x Pos1"></i>
   <div class="caroText">
 
-    <p>
+    <!-- <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias similique, odio
     </p>
     <p>quibusdam neque iure corporis vero quidem eius quis, illum, alias odit quo nihil.</p>
-    <p>Eveniet tenetur repudiandae, accusamus. Quia, eum?</p>
-    <p class=" personName">Anna Brown</p>
+    <p>Eveniet tenetur repudiandae, accusamus. Quia, eum?</p> -->
+
+
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias similique, odio
+    quibusdam neque iure corporis vero quidem eius quis, illum, alias odit quo nihil.
+    Eveniet tenetur repudiandae, accusamus. Quia, eum?</p>
+    <p class=" personName"> &mdash; Anna Brown</p>
   </div>
   <i class="far fa-chevron-right fa-2x Pos2"></i>
  </div>
@@ -395,6 +417,7 @@
     </div>
   </div>
 </footer>
+
 </body>
 </html>
 

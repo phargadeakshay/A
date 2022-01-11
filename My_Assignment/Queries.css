@@ -1,0 +1,328 @@
+@media (max-width: 1100px) {
+  html {
+    /* 9px / 16px  */
+    font-size: 45%;
+  }
+  .navbar {
+    /* flex-direction: column; */
+    /* display: none; */
+  }
+  .navbar ul {
+    /* flex-direction: column; */
+    font-size: 1.7rem;
+  }
+  .logo {
+    font-size: 1.7rem;
+  }
+  .logo {
+    padding: 1rem 2rem;
+  }
+
+  .que {
+    /* padding: 0.5rem 1.8rem; */
+    /* border-radius: 0.9rem; */
+    font-size: 1.5rem;
+  }
+  .textContent {
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 3rem;
+  }
+  .firstHead {
+    grid-template-columns: 1fr;
+    font-size: 1rem;
+  }
+  .img1 {
+    width: 100%;
+  }
+  .testimonials {
+    grid-template-columns: 1fr;
+    font-size: 3rem;
+  }
+  .logos {
+    grid-template-columns: 1fr 1fr;
+    font-size: 3rem;
+  }
+  .grid-4 {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 0;
+    width: 100%;
+    justify-content: center;
+    font-size: 3rem;
+
+    column-gap: 3rem;
+  }
+  .imgdiv {
+    display: flex;
+    justify-content: center;
+    /* padding: 10px 20px; */
+    align-items: center;
+  }
+  .gridContent {
+    padding: 0;
+  }
+  .belowHr {
+    font-size: 2.5rem;
+
+    text-align: center;
+  }
+  .haeadAfterTextImonial {
+    font-size: 3rem;
+  }
+  .imgGrid {
+    width: 100%;
+    height: 80%;
+  }
+  .tohead {
+    font-size: 3rem;
+  }
+  .grid-3 {
+    grid-template-columns: 1fr 1fr;
+    font-size: 2rem;
+  }
+
+  .video {
+    width: 80rem;
+    height: 40rem;
+  }
+  .videohead {
+    font-size: 3rem;
+  }
+  .PriceCardContainer {
+    grid-template-columns: 1fr 1fr;
+    /* padding: 0 10rem; */
+    font-size: 2rem;
+  }
+  .videohead,
+  .caroText {
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+
+    /* align-items: flex-start; */
+  }
+
+  .formcontainer,
+  input {
+    font-size: 2rem;
+  }
+  .mainfooterdiv {
+    padding: 1rem 2rem;
+  }
+  .footerdiv2 ul {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    /* 9px / 16px  */
+    font-size: 45%;
+  }
+  .navbar {
+    height: 5.5rem;
+  }
+  .mobileBars {
+    color: black;
+    font-size: 3rem;
+    padding-right: 2rem;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .que {
+    display: none;
+  }
+  .textContent {
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 3rem;
+  }
+  .firstHead {
+    grid-template-columns: 1fr;
+    font-size: 1rem;
+  }
+  .img1 {
+    width: 100%;
+  }
+  .testimonials {
+    grid-template-columns: 1fr;
+    font-size: 3rem;
+  }
+  .logos {
+    grid-template-columns: 1fr;
+    font-size: 3rem;
+  }
+  .logoContainer,
+  .logo1 h4,
+  .logosBoxText {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .dash {
+    display: none;
+  }
+  .AlCenter {
+    text-align: center;
+  }
+
+  .grid-4 {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 0;
+    width: 100%;
+    justify-content: center;
+    font-size: 3rem;
+
+    column-gap: 3rem;
+  }
+
+  .imgdiv {
+    display: flex;
+    justify-content: center;
+    /* padding: 10px 20px; */
+    align-items: center;
+  }
+  .gridContent {
+    padding: 0;
+  }
+  .belowHr {
+    font-size: 2.5rem;
+
+    text-align: center;
+  }
+  .haeadAfterTextImonial {
+    font-size: 3rem;
+  }
+  .imgGrid {
+    width: 100%;
+    height: 80%;
+  }
+  .tohead {
+    font-size: 3rem;
+  }
+  .grid-3 {
+    grid-template-columns: 1fr 1fr;
+    font-size: 2rem;
+  }
+
+  .video {
+    width: 80rem;
+    height: 40rem;
+  }
+  .videohead {
+    font-size: 3rem;
+  }
+  .PriceCardContainer {
+    grid-template-columns: 1fr 1fr;
+    /* padding: 0 10rem; */
+    font-size: 2rem;
+  }
+  .videohead,
+  .caroText {
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+
+    /* align-items: flex-start; */
+  }
+
+  .formcontainer,
+  .selectclass input {
+    font-size: 2rem;
+  }
+  .mainfooterdiv {
+    padding: 1rem 2rem;
+    font-size: 1.7rem;
+  }
+  .footerdiv2 ul {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .navbar {
+    z-index: 9999;
+  }
+  .textContent {
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 3rem;
+  }
+  .firstHead {
+    grid-template-columns: 1fr;
+    font-size: 1rem;
+  }
+  .img1 {
+    width: 100%;
+  }
+  .testimonials {
+    grid-template-columns: 1fr;
+    font-size: 3rem;
+  }
+  .logos {
+    grid-template-columns: 1fr;
+    font-size: 3rem;
+  }
+  .grid-4 {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    width: 100%;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  .imgdiv {
+    display: flex;
+    justify-content: center;
+    /* padding: 10px 20px; */
+  }
+  .belowHr {
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .imgGrid {
+    width: 85%;
+  }
+  .gridContent p {
+    text-align: center;
+  }
+  .grid-3 {
+    grid-template-columns: 1fr;
+    font-size: 2rem;
+  }
+  .videohead,
+  .caroText {
+    font-size: 2rem;
+    width: 100%;
+
+    align-items: flex-start;
+  }
+
+  .video {
+    width: 90%;
+    height: 100%;
+  }
+  .PriceCardContainer {
+    grid-template-columns: 1fr;
+    /* padding: 0 10rem; */
+    font-size: 2rem;
+  }
+
+  .formcontainer,
+  .selectclass,
+  input {
+    font-size: 2rem;
+  }
+
+  .mainfooterdiv {
+    padding: 1rem 2rem;
+    flex-direction: column;
+    row-gap: 2rem;
+    align-items: center;
+    display: none;
+  }
+  .footerdiv2 ul {
+  }
+  .footerdiv2 ul {
+    gap: 1rem;
+  }
+}
