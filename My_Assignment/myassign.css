@@ -247,7 +247,7 @@ p {
 .grid-3-content {
   overflow: hidden;
   border-radius: 2rem;
-  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(128, 128, 128, 0.466);
+  box-shadow: 0.1rem 0.1rem 1rem 0.1rem rgba(128, 128, 128, 0.466);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -470,6 +470,31 @@ input:focus {
   position: relative;
   display: flex;
   align-items: center;
+}
+
+/* last grid recent blog css */
+
+.grid-3-content2 {
+  overflow: hidden;
+  border-radius: 0rem;
+  box-shadow: 0.1rem 0.1rem 1rem 0.1rem rgba(128, 128, 128, 0.466);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.8s;
+}
+.grid-3-content2:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+.grid-3-content2 img {
+  width: 100%;
+}
+.grid-3-content2 h4 {
+  padding: 1rem;
+}
+.grid-3-content2 p {
+  margin: 1rem 2rem;
 }
 
 /* Footer css */
