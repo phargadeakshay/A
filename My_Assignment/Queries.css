@@ -25,7 +25,7 @@
   }
   .textContent {
     padding: 1rem 1rem 1rem 1rem;
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .firstHead {
     grid-template-columns: 1fr;
@@ -36,11 +36,11 @@
   }
   .testimonials {
     grid-template-columns: 1fr;
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .logos {
     grid-template-columns: 1fr 1fr;
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .grid-4 {
     grid-template-columns: 1fr 1fr;
@@ -60,7 +60,8 @@
   .gridContent {
     padding: 0;
   }
-  .belowHr {
+  .belowHr1,
+  .belowHr2 {
     font-size: 2.5rem;
 
     text-align: center;
@@ -134,7 +135,7 @@
   }
   .textContent {
     padding: 1rem 1rem 1rem 1rem;
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .firstHead {
     grid-template-columns: 1fr;
@@ -145,7 +146,7 @@
   }
   .testimonials {
     grid-template-columns: 1fr;
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .logos {
     grid-template-columns: 1fr;
@@ -184,7 +185,8 @@
   .gridContent {
     padding: 0;
   }
-  .belowHr {
+  .belowHr1,
+  .belowHr2 {
     font-size: 2.5rem;
 
     text-align: center;
@@ -244,7 +246,7 @@
   }
   .textContent {
     padding: 1rem 1rem 1rem 1rem;
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .firstHead {
     grid-template-columns: 1fr;
@@ -255,36 +257,40 @@
   }
   .testimonials {
     grid-template-columns: 1fr;
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .logos {
     grid-template-columns: 1fr;
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .grid-4 {
     grid-template-columns: 1fr;
     row-gap: 20px;
     width: 100%;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .imgdiv {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
     /* padding: 10px 20px; */
-  }
-  .belowHr {
-    font-size: 2rem;
-    justify-content: center;
-    text-align: center;
   }
 
   .imgGrid {
     width: 85%;
+    height: 30rem;
   }
   .gridContent p {
     text-align: center;
   }
+  .belowHr1,
+  .belowHr2 {
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+  }
+
   .grid-3 {
     grid-template-columns: 1fr;
     font-size: 2rem;
